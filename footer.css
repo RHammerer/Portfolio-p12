@@ -1,0 +1,21 @@
+footer{
+    background-color: black;
+    color: white;
+    position: relative;
+    padding: 15px;
+}
+
+.reseaux{
+    list-style: none;
+}
+.img-footer{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}

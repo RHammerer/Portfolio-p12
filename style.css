@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import "./realisations.css";
+@import "./footer.css";
+@import "./footer.css";
+@import "./form.css";
+
+
+html{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+.banner{
+    position: relative;
+}
+.img-banner{
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+}
+.main-title{
+    position: absolute;
+    font-size: 35px;
+    top: 20%;
+    right: 35%;
+    /* color: White; */
+    padding: 10px;
+    background-color: white;
+}
+.liste-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    color: lightskyblue;
+    font-size: 20px;
+    padding-right: 15px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a, a:visited{
+    text-decoration: none;
+}
+.article-presentation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px;
+    gap: 15px;
+  background: linear-gradient(to left,purple,	#301934 );
+  border-radius: 25px;
+}
+.presentation{
+    font-size: 20px;
+    color: white;
+}
+.portrait{
+    width: 10%;
+    height: 10%;
+    border-radius: 15px;
+}
+#parcours{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-weight: lighter;
+}
+#parcours p {
+    font-weight: lighter;
+}
