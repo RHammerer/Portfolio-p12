@@ -62,7 +62,7 @@ a, a:visited{
     align-items: center;
     padding: 25px;
     gap: 15px;
-  background: linear-gradient(to left,purple,	#301934 );
+  background: linear-gradient(to right,#0084ff,	#03025e );
   border-radius: 25px;
 }
 .presentation{
@@ -82,6 +82,14 @@ a, a:visited{
     list-style: none;
     font-weight: lighter;
 }
+li::marker{
+    color: #0084ff;
+}
 #parcours p {
     font-weight: lighter;
+}
+#contact h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
